@@ -27,6 +27,7 @@ function App() {
   return (
     <>
       <div className="App">
+        <h1>Pregúntame</h1>
         <div>Realiza una pregunta que se conteste con sí o no en tu mente y presiona contestar</div>
         <button onClick={() => fetchYesNoData()}>Contestar</button>
         <p>{yesno && yesno.answer=='yes'? 'Sí':'No' }</p>
